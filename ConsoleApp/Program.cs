@@ -20,7 +20,7 @@ namespace ConsoleApp
         }
         private static void AddSamurai()
         {
-            var samurai = new SamuraiAppDomain.Samurai { Name = "Ruholah Jafari" };
+            var samurai = new SamuraiAppDomain.Samurai { Name = "Mr.Nobody" };
             context.Samurais.Add(samurai);
             context.SaveChanges();
             
